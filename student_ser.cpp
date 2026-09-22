@@ -11,7 +11,7 @@ for(int i=0;i<5;i++)
 {
 cin>>student[i];
 }
-cout<<"enter roll no of 5 student:";
+cout<<"enter roll no to search:";
 cin>>searchID;
 for(int i=0; i<5;i++)
 {
