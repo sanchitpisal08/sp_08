@@ -13,6 +13,7 @@ cout<<"enter 5 coustomer order number:\n";
 for(int i=0; i<5; i++)
 {
 cin>>queue[rear];
+rear++;
 }
 
 //process orders
