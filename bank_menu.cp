@@ -1,4 +1,4 @@
-```cpp
+
 #include<iostream>
 using namespace std;
 
@@ -60,4 +60,26 @@ int main()
 
                 // Move remaining tokens forward
                 for (int i = 0; i < count - 1; i++)
-```
+                {
+                    tokens[i] = tokens[i + 1];
+                }
+
+                count--;
+            }
+        }
+
+        else if (choice == 4)
+        {
+            cout << "Thank you for using the Book Token System!";
+        }
+
+        else
+        {
+            cout << "Invalid Choice!";
+        }
+
+    } while (choice != 4);
+
+    return 0;
+}
+
